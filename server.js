@@ -5,7 +5,7 @@ const app = express();
 
 const mongoose = require("mongoose");
 
-const routes = require("./routes");
+// const routes = require("./routes");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Define API routes here
-app.use(routes);
+// app.use(routes);
 // Send every other request to the React app
 
 // connect to the Mongo DB
