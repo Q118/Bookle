@@ -1,29 +1,61 @@
-# Create React Express App
+# Bookle
 
-## About This Boilerplate
+This project is a work in progress but my goal is to get it to this screenshot:
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+![](https://github.com/Q118/Bookle/blob/master/search.png)
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
 
-## Starting the app locally
+This assignment requires me to create React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. Will also use Node, Express and MongoDB so that users can save books to review or purchase later.
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
 
-```
-npm install
-```
+## Table of Contents
 
-This should install node modules within the server and the client folder.
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#🛡Badge📛)
+* [Contact](#Contact)
 
-After both installations complete, run the following command in your terminal:
 
-```
-npm start
-```
+## Installation
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+* Open the project in VScode
+* Next install dependencies with the command: `npm i`
+* Then, start the app with typing `npm start` into the terminal.
+* View in localhost, port 3001
 
-## Deployment (Heroku)
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+
+## Usage
+
+Deployed on Heroku
+
+* [View the live app here!](https://bookle-express.herokuapp.com/)
+
+
+## 🛡Badge📛
+
+![](https://img.shields.io/badge/Shelby-Anne-purple)
+
+
+## Contributing
+        
+Please feel free to fork, add comments, and share.
+    
+        
+## Tests
+    
+Test to be done through VScode and Chrome.
+    
+    
+## Contact
+    
+Reach out to me with any questions!
+    
+* [Visit my GitHub Page](https://github.com/q118).
+* [Send me an Email](mailto:shelbyfish91@gmail.com).
+* [View more of my apps in my portfolio](https://q118.github.io/shelby_rothman/portfolio.html).
+
+
+
+
+
